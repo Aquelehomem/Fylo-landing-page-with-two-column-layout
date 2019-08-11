@@ -5,3 +5,18 @@
 //Body
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+header>.wrapper{
+    ul>li{
+        font-family: $Raleway;
+    }
+    h1{
+        font-family:$Raleway;
+    }
+    button{
+        font-family:$Raleway;
+    }
+    p{
+        font-family:$open-sans;
+    }
+}

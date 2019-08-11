@@ -16,6 +16,15 @@ html, body {
   max-width: 1400px;
   margin: 0 auto; }
 
+header > .wrapper ul > li {
+  font-family: "Raleway"; }
+header > .wrapper h1 {
+  font-family: "Raleway"; }
+header > .wrapper button {
+  font-family: "Raleway"; }
+header > .wrapper p {
+  font-family: "Open sans"; }
+
 header > .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -78,5 +87,48 @@ header > .wrapper {
     @media screen and (min-width: 1000px) {
       header > .wrapper div:nth-of-type(3) button {
         height: 2.5em; } }
+
+section > .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10% 5%; }
+  section > .wrapper div:nth-of-type(1) {
+    width: 100%;
+    margin: 0 0 7em 0; }
+    section > .wrapper div:nth-of-type(1) img {
+      margin: 0 auto;
+      width: 90%;
+      display: block; }
+  section > .wrapper div:nth-of-type(2) h2 {
+    margin: 0 0 2.2em 0;
+    text-align: center; }
+  section > .wrapper div:nth-of-type(2) p {
+    margin: 0 0 2em 0; }
+  section > .wrapper div:nth-of-type(2) button {
+    margin: 0 auto 2em auto;
+    display: block; }
+  section > .wrapper div:nth-of-type(2) div {
+    padding: 5%;
+    line-height: 1.7;
+    border: solid black;
+    height: 19em; }
+    section > .wrapper div:nth-of-type(2) div span {
+      margin: 0 auto 0 0; }
+    section > .wrapper div:nth-of-type(2) div p {
+      margin: 0 0 1em 0; }
+    section > .wrapper div:nth-of-type(2) div div:nth-of-type(1) {
+      height: 6.5em;
+      width: 70%;
+      background: red; }
+      section > .wrapper div:nth-of-type(2) div div:nth-of-type(1) img {
+        min-width: 25px;
+        width: 50px;
+        border-radius: 50%;
+        margin: auto auto auto 0;
+        float: left; }
+      section > .wrapper div:nth-of-type(2) div div:nth-of-type(1) span {
+        margin: 0 0 0 65px;
+        display: block; }
 
 /*# sourceMappingURL=main.css.map */
