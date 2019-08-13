@@ -12,11 +12,81 @@ header>.wrapper{
     }
     h1{
         font-family:$Raleway;
+        font-size:2.2em;
+        color:$Very-Dark-Blue;
     }
     button{
         font-family:$Raleway;
+        color:white;
+        background-color:$Bright-Blue;
+        border:none;
+        border-radius:5px;
+        font-weight: bold;
+
     }
     p{
         font-family:$open-sans;
+        color:$Very-Dark-Blue;
+    }
+}
+main{
+    h2{
+        font-family:$Raleway;
+        color:$Very-Dark-Blue;
+        font-size:2.3em;
+    }
+    button{
+        font-family:$Raleway;
+        background-color:transparent;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        color:$Moderate-Cyan;
+    }
+    p{
+        color:$Very-Dark-Blue;
+        font-family:$open-sans;
+    }
+    span{
+        font-family:$open-sans;
+    }
+    .wrapper{
+        div:nth-of-type(2){
+            div{
+                p{
+                    font-size:0.9em;
+                }
+                div:nth-of-type(1) {
+                    span:nth-of-type(1) {
+                        font-weight: 700;
+                    }
+                    span:nth-of-type(2) {
+                        font-size:0.8em;
+                    }
+                
+                }
+            }
+        }
+        
+    }
+    section:nth-of-type(2){
+        .wrapper{
+            h2{
+                color:white;
+                font-size:2em;
+            }
+            p{
+                color:white;
+            }
+            button{
+                border-style:solid;
+                color:white;
+                border:none;
+                background-color:$Bright-Blue;
+                border-radius:5px;
+                font-size:1em;
+                font-weight:bold;
+            }
+        }
     }
 }
